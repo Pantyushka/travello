@@ -1,0 +1,12 @@
+.weblog{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.weblogTitle{
+    text-align: center;
+}
+.weblogImg{
+    width: 385px;
+    height: 100px;
+    background-image: url(../../assets/holder1.png);
+}

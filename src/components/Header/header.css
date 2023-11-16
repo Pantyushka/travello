@@ -1,0 +1,45 @@
+.header{
+    color: #fff;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)
+      ),url(../../assets/0_1\ 1.jpg) 0 0/cover no-repeat;
+    width: 100vw;
+    height:965px;
+    position: relative;
+    background-position: center;
+}
+
+
+.navbar{
+    padding: 70px 0;
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.logo{
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+.desktopMenu{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 0.2px;
+}
+.desktopMenuListItem{
+    cursor: pointer;
+    margin: 1rem;
+}
+.intro{
+    font-family: 'Abril Fatface', serif;
+    margin-top: 17rem;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 121px;
+    text-align: center;
+}
