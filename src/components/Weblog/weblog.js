@@ -6,7 +6,7 @@ const Weblog = () => {
         <h1 className='weblogTitle'>Read Before You Travel</h1>
         <div className='weblogHolder'>
             <div className='holderBlog'>
-                <div className='holderImg'></div>
+                <div className='holderImg'><Img></Img></div>
                 <div className='holderInfo'>
                     <div className='holderHeader'>NUSA PENIDA ISLAND GUIDE</div>
                     <div className='holderText'>The beautiful, exotic Nusa Penida island lies just 25 kilometers from Bali, the most famous tourist destination in Indonesia.</div>
