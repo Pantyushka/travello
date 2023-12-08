@@ -1,45 +1,113 @@
-.header{
+.header {
     color: #fff;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.2), 
-        rgba(0, 0, 0, 0.2)
-      ),url(../../assets/0_1\ 1.jpg) 0 0/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/0_1\ 1.jpg) 0 0/cover no-repeat;
     width: 100vw;
-    height:965px;
+    min-height: 100vh;
     position: relative;
     background-position: center;
-}
-
-
-.navbar{
-    padding: 70px 0;
-    width: 100vw;
-    height: 72px;
+  }
+  
+  .navbar {
+    padding: 24px 0;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
     display: flex;
-    align-items:center;
-    justify-content:space-evenly;
-}
-.logo{
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
     font-weight: 500;
-    font-size: 50px;
-    line-height: 72px;
+    font-size: 24px;
+    line-height: 32px;
     text-transform: uppercase;
-}
-.desktopMenu{
-    font-weight: 400;
+  }
+  
+  .desktopMenu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .desktopMenuListItem {
+    cursor: pointer;
+    margin: 0 16px;
     font-size: 16px;
     line-height: 24px;
-    border: 0.2px;
-}
-.desktopMenuListItem{
-    cursor: pointer;
-    margin: 1rem;
-}
-.intro{
+  }
+  
+  .intro {
     font-family: 'Abril Fatface', serif;
-    margin-top: 17rem;
-    font-size: 90px;
+    margin-top: 10rem;
+    font-size: 60px;
     font-weight: 400;
-    line-height: 121px;
+    line-height: 81px;
     text-align: center;
-}
+  }
+  
+  .burgerMenu {
+    display: none;
+  }
+  .burgerMenuList {
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 16px;
+    position: fixed;
+    top: 5%;
+    left: 70%;
+    background-color: #333;
+  }
+
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px 0;
+    }
+  
+    .desktopMenu {
+      display: none;
+    }
+  
+    .burgerMenu {
+      display: flex;
+      margin-top: 20px;
+    }
+  
+    .burgerMenuIcon {
+      cursor: pointer;
+      font-size: 24px;
+      line-height: 32px;
+      margin-right: 16px;
+      position: fixed;
+      top:2%;
+      left:90%;
+    }
+  
+    .burgerMenuList {
+      display: none;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: 16px;
+    }
+  
+    .burgerMenuItem {
+      cursor: pointer;
+      margin: 8px 0;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .active {
+        display: flex;
+      }
+    .header{
+       min-width: 470px;
+    }
+    .intro{
+      margin-right: 35px;
+      font-size: 45px;
+    }
+  }

@@ -22,14 +22,17 @@
 .destinationsCards{
     margin: 0 20px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 800px;
 }
 .destinationsCard{
-    margin: 0 30px;
+    margin: 0 10px;
     border-radius: 3rem ;
     width: 217px;
     height: 353px;
     box-shadow: inset 0 0 150px #000;
+    margin-bottom: 20px;
 }
 .destinationsCard span{
     display: block;
@@ -49,3 +52,17 @@
 .destinationsCard:nth-child(3){
     background: url(../../assets/0_3_384_N.png) no-repeat;
 }
+@media (max-width: 768px) {
+    .destinations {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .destinationsTexts {
+      margin-bottom: 30px;
+    }
+  
+    .destinationsCards {
+      max-width: 100%;
+    }
+  }

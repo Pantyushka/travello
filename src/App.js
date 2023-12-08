@@ -2,7 +2,9 @@ import Header from "./components/Header/header";
 import Offers from "./components/Offers/offers";
 import Discover from "./components/Discover/discover";
 import Destinations from "./components/Destinations/destinations";
-import Weblog from "./components/Weblog/weblog";
+import Customers from "./components/Customers/customers";
+import Banner from "./components/Banner/banner";
+import Footer from "./components/Footer/footer"
 function App() {
   return (
     <div className="App">
@@ -10,7 +12,9 @@ function App() {
       <Offers/>
       <Discover/>
       <Destinations/>
-      <Weblog/>
+      <Customers/>
+      <Banner/>
+      <Footer/>
     </div>
   );
 }

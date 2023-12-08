@@ -1,0 +1,31 @@
+
+.banner {
+  margin: 3rem 0;
+  width: 100%;
+  max-width: 100vw; 
+  height: 445px; 
+  background: url("../../assets/Banner.jpg") 0 0/100% 100% no-repeat;
+  display:flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+}
+
+.bannerHeader {
+  margin: 0 auto;
+  max-width: 721px; 
+  padding: 50px 16px; 
+  text-align: center;
+  font-size: 28px; 
+  font-weight: 600;
+}
+
+.bannerBtn {
+  width: 235px;
+  padding: 16px;
+  border-radius: 40px;
+  margin: 0 auto;
+  background-color: #177ba5;
+  text-align: center;
+  color: #fff;
+}
