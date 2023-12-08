@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/travello/static/css/main.813649bb.css",
+    "main.js": "/travello/static/js/main.10bb33f0.js",
+    "static/media/Banner.jpg": "/travello/static/media/Banner.17554b75234fe8656888.jpg",
+    "static/media/0_1 1.jpg": "/travello/static/media/0_1 1.05e09dd8a0d544fe69fa.jpg",
+    "static/media/newyork.png": "/travello/static/media/newyork.32860e24a02a9af84d05.png",
+    "static/media/0_3_384_N.png": "/travello/static/media/0_3_384_N.77c4c12e16fbba40a498.png",
+    "static/media/miami.png": "/travello/static/media/miami.999f6b414a917ba3170c.png",
+    "static/media/0_1_384_N.png": "/travello/static/media/0_1_384_N.c1d9313a85a0b1a09c48.png",
+    "static/media/japan.png": "/travello/static/media/japan.40c296a5b69edfa4688a.png",
+    "static/media/greece.png": "/travello/static/media/greece.9d05e252135ae5c060dd.png",
+    "static/media/taj-mahal.png": "/travello/static/media/taj-mahal.adbb5556ff3315b45401.png",
+    "static/media/dubai.png": "/travello/static/media/dubai.78f9f5bb58825e7f5ba7.png",
+    "static/media/img1.png": "/travello/static/media/img1.b98a15c1e85db6d969cf.png",
+    "static/media/cardimg1.png": "/travello/static/media/cardimg1.868019ee8497d3646fd8.png",
+    "static/media/slick.svg": "/travello/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/travello/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/travello/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/travello/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/travello/index.html",
+    "main.813649bb.css.map": "/travello/static/css/main.813649bb.css.map",
+    "main.10bb33f0.js.map": "/travello/static/js/main.10bb33f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.813649bb.css",
+    "static/js/main.10bb33f0.js"
+  ]
+}
